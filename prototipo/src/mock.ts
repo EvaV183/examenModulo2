@@ -1,22 +1,23 @@
-//MOCK DE PRODUCTOS
+import { Product } from './server1.js'; //Importamos el interfaz de Product
 
-export const products = [
+//MOCK DE PRODUCTOS
+export const products: Product[] = [
     {
-        id: '1',
-        name: 'Ordenador',
-        price: 1000,
-        stock: 2,
-        is_active: false,
-        created_at: '',
-        updated_at: '',
+        id: 1,
+        name: 'Cámara',
+        price: 100,
+        stock: 10,
+        is_active: true,
+        created_at: new Date(),
+        updated_at: new Date(),
     },
     {
-        id: '2',
+        id: 1,
         name: 'Smartphone',
-        price: 500,
+        price: 100,
         stock: 10,
-        is_active: false,
-        created_at: '',
-        updated_at: '',
+        is_active: true,
+        created_at: new Date(),
+        updated_at: new Date(),
     },
 ];
